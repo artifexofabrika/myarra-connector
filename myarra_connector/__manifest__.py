@@ -17,7 +17,7 @@ See the module description page for full documentation.
     'website': 'https://www.artifexofabrika.com',
     'license': 'OPL-1',
     'price': 99.00,
-    'currency': 'USD',
+    'currency': 'EUR',
     'support': 'contact@artifexofabrika.com',
     'depends': ['mrp'],
     'data': [
