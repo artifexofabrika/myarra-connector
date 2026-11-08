@@ -1,8 +1,8 @@
 <section class="oe_container">
   <div class="oe_row oe_spaced">
-    <h2 class="oe_slogan" style="color:#8a6d3b;">Myarra Connector</h2>
+    <h2 class="oe_slogan" style="color:#8a6d3b; font-weight: 600;">Myarra Connector</h2>
     <h3 class="oe_slogan">Read-only bridge from Odoo to the Myarra shop-floor tracker.</h3>
-    <p class="oe_mt32" style="text-align:center;">
+    <p class="oe_mt32" style="text-align:center; font-size: 1.2em; color: #555;">
       Stop forcing your operators to tap through tablets.
     </p>
   </div>
@@ -43,13 +43,73 @@
 <section class="oe_container oe_dark">
   <div class="oe_row oe_spaced">
     <h2 class="oe_slogan">How It Works</h2>
-    <ol class="oe_mt16" style="font-size:16px;">
+    <ol class="oe_mt16" style="font-size:16px">
       <li>Install this connector in your Odoo instance.</li>
       <li>Enter the local IP address of your Myarra installation in Settings.</li>
-      <li>The connector pulls active Manufacturing Orders (mrp.production)
-          and passes them to Myarra.</li>
+      <li>The connector pulls active Manufacturing Orders (mrp.production) and passes them to Myarra.</li>
       <li>Operators log actuals via voice or typed message from the floor.</li>
     </ol>
+  </div>
+</section>
+
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan" style="margin-bottom: 30px;">See It In Action</h2>
+    
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h3>The Sync Button</h3>
+        <p>One click in your Manufacturing Orders list pushes the active schedule straight to the factory floor.</p>
+      </div>
+      <div class="col-md-6">
+        <a href="https://raw.githubusercontent.com/artifexofabrika/myarra-connector/20.0/myarra_connector/static/description/screenshot_1_dashboard.png" target="_blank">
+          <img src="screenshot_1_dashboard.png" class="img-fluid shadow rounded" alt="Odoo Sync Button" />
+        </a>
+      </div>
+    </div>
+
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+      <div class="col-md-6">
+        <h3>Shop-Floor Reconciliation</h3>
+        <p>Myarra maps incoming Odoo jobs against actual operator logs, highlighting unaccounted minutes.</p>
+      </div>
+      <div class="col-md-6">
+        <a href="https://raw.githubusercontent.com/artifexofabrika/myarra-connector/20.0/myarra_connector/static/description/screenshot_3_reconciliation.png" target="_blank">
+          <img src="screenshot_3_reconciliation.png" class="img-fluid shadow rounded" alt="Reconciliation Dashboard" />
+        </a>
+      </div>
+    </div>
+
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <h3>Shift Reports</h3>
+        <p>Automated reports provide two-measure OEE and operator performance directly to the floor supervisor.</p>
+      </div>
+      <div class="col-md-6">
+        <a href="https://raw.githubusercontent.com/artifexofabrika/myarra-connector/20.0/myarra_connector/static/description/screenshot_4_shift_report.png" target="_blank">
+          <img src="screenshot_4_shift_report.png" class="img-fluid shadow rounded" alt="Shift Report" />
+        </a>
+      </div>
+    </div>
+
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+      <div class="col-md-6">
+        <h3>Voice & Telegram Logging</h3>
+        <p>Operators log production in seconds using the Telegram interface, no tablets required.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <a href="https://raw.githubusercontent.com/artifexofabrika/myarra-connector/20.0/myarra_connector/static/description/screenshot_2_telegram.png" target="_blank">
+          <img src="screenshot_2_telegram.png" class="img-fluid shadow rounded" style="max-height: 400px;" alt="Telegram Bot" />
+        </a>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="https://raw.githubusercontent.com/artifexofabrika/myarra-connector/20.0/myarra_connector/static/description/screenshot_5_odoo_sync.png" target="_blank">
+        <img src="screenshot_5_odoo_sync.png" class="img-fluid shadow rounded" alt="Full Odoo Sync View" />
+      </a>
+    </div>
+
   </div>
 </section>
 
