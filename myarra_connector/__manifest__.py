@@ -1,6 +1,6 @@
 {
     'name': 'Myarra Connector',
-    'version': '20.0.1.0.1',
+    'version': '20.0.1.0.2',
     'category': 'Manufacturing',
     'summary': 'Read-only bridge from Odoo Manufacturing to the Myarra shop-floor tracker.',
     'description': """
@@ -26,10 +26,10 @@ See the module description page for full documentation.
     ],
     'images': [
         'static/description/screenshot_1_dashboard.png',
-        'static/description/screenshot_2_telegram.png',
+        'static/description/screenshot_5_odoo_sync.png',
         'static/description/screenshot_3_reconciliation.png',
         'static/description/screenshot_4_shift_report.png',
-        'static/description/screenshot_5_odoo_sync.png',
+        'static/description/screenshot_2_telegram.png',
     ],
     'installable': True,
     'application': False,
